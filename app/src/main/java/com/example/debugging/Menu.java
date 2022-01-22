@@ -28,7 +28,7 @@ public class Menu extends AppCompatActivity implements View.OnClickListener{
         setContentView(R.layout.activity_menu);
 
         init();
-//        buttonNameChange.setOnClickListener(this);
+        buttonNameChange.setOnClickListener(this);
 //        buttonInformation.setOnClickListener(this);
 //        buttonExit.setOnClickListener(this);
 //        buttonNext.setOnClickListener(this);
@@ -39,7 +39,7 @@ public class Menu extends AppCompatActivity implements View.OnClickListener{
     {
         buttonExit = findViewById(R.id.buttonExit);
         buttonInformation = findViewById(R.id.buttonInformation);
-        buttonNameChange = findViewById(R.id.buttonBack);
+        buttonNameChange = findViewById(R.id.buttonNameChange);
         buttonNext = findViewById(R.id.buttonNext);
         textViewName = findViewById(R.id.textViewName);
 
